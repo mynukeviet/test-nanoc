@@ -2,6 +2,8 @@
 title: Nanoc Demo Site 11
 ---
 
+[I am an absolute reference within the repository](about)
+
 # Nanoc on Netlify
 This page is mainly created to demonstrate a basic Nanoc site, with assets hosted on GitHub using Netlify to deploy in continuous deployment.
 
