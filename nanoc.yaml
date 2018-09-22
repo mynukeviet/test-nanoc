@@ -5,7 +5,18 @@ text_extensions: [ 'adoc', 'asciidoc', 'atom', 'coffee', 'css', 'erb', 'haml', '
 
 prune:
   auto_prune: true
+  exclude: [ '.git' ]
 
 data_sources:
   - type: filesystem
     encoding: utf-8
+
+deploy:
+  default:
+    kind: git
+    remote: git@github.com:mynukeviet/test-nanoc.git
+    branch: master
+    forced: true
+  staging:
+    kind: rsync
+    dst:  "git@github.com:mynukeviet/test-nanoc.git"

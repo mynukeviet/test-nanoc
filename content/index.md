@@ -1,5 +1,5 @@
 ---
-title: Nanoc Demo Site
+title: Nanoc Demo Site 11
 ---
 
 # Nanoc on Netlify
