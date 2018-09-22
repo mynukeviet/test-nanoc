@@ -7,7 +7,7 @@ This page is mainly created to demonstrate a basic Nanoc site, with assets hoste
 
 We'll run some font and layout tests...
 
-**This font is Bold.**
+**This font is Bold. 2222**
 
 *This font is Italic.*
 
